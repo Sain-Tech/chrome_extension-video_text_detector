@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+   
+    "name": "글자 추출 지원 서비스",
+
+    "description": "The Service of Video text detection",
+
+    "version": "1.0",
+   
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "<all_urls>"
+    ]
+  }
